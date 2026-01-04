@@ -1,0 +1,32 @@
+body { margin:0; font-family: 'Segoe UI', Arial; background:#f4f6f9; }
+.hidden { display:none; }
+
+/* LOGIN */
+.login-body { display:flex; justify-content:center; align-items:center; height:100vh; background: #eee; }
+.login-container { display:flex; width:800px; background:white; border-radius:15px; overflow:hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.2); }
+.login-image img { width:400px; height:100%; object-fit:cover; }
+.login-box { padding:40px; width:100%; }
+.login-box h2 { color: #8b0000; }
+.login-box input { width:90%; padding:12px; margin:10px 0; border: 1px solid #ddd; border-radius: 5px; }
+.login-box button { width:97%; padding:12px; background:#8b0000; color:white; border:none; cursor:pointer; font-weight:bold; }
+
+/* DASHBOARD LAYOUT */
+.container { display:flex; }
+.sidebar-red { width:220px; background:#8b0000; color:white; height:100vh; padding:20px; position: fixed; }
+.sidebar-red h3 { border-bottom: 1px solid #a00000; padding-bottom: 10px; }
+.sidebar-red a { display:block; padding:12px; background:#a00000; margin-bottom:8px; color:white; cursor:pointer; border-radius: 5px; text-decoration: none; }
+.sidebar-red a:hover { background: #c00000; }
+
+.main-content { flex:1; padding:30px; margin-left: 260px; }
+.cards { display:flex; gap:20px; flex-wrap: wrap; }
+.card { background:white; padding:20px; border-radius:10px; width:180px; font-weight:bold; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border-top: 4px solid #8b0000; }
+.card span { display: block; font-size: 24px; color: #8b0000; margin-top: 10px; }
+
+/* TABLES & FORMS */
+.form-inline { display:flex; gap:10px; margin-bottom:20px; background: white; padding: 15px; border-radius: 8px; }
+.form-inline input { padding:10px; width:200px; border: 1px solid #ddd; border-radius: 4px; }
+.btn-save { background:#8b0000; color:white; border:none; padding:10px 20px; cursor:pointer; border-radius: 4px; }
+.styled-table { width:100%; background:white; border-collapse:collapse; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.styled-table th { background:#8b0000; color:white; padding:12px; text-align: left; }
+.styled-table td { padding:12px; border-bottom:1px solid #eee; }
+.btn-delete { background:#dc143c; color:white; border:none; padding:5px 12px; cursor:pointer; border-radius: 3px; }
